@@ -15,4 +15,3 @@ poetry.lock
 *.png
 # Keep the experimental stimulus WAV local; it may be supplied separately.
 stimuli/
-outputs/
