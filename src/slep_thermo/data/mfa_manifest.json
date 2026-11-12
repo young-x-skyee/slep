@@ -1,0 +1,23 @@
+{
+  "source_uploads": [
+    "teacher_mfa_text(1).txt",
+    "teacher_mfa_stime(1).txt"
+  ],
+  "bundled_files": [
+    "slep_thermo/data/mfa_word.txt",
+    "slep_thermo/data/mfa_word_stime.txt"
+  ],
+  "copied_without_content_changes": true,
+  "aligned_rows_including_pause_markers": 1656,
+  "pause_markers": 260,
+  "lexical_words_after_pause_removal": 1396,
+  "first_raw_onset_seconds": 0.0,
+  "last_lexical_word": "follow",
+  "last_lexical_word_onset_seconds": 401.1,
+  "last_raw_row": "<sp>",
+  "last_raw_onset_seconds": 401.5,
+  "word_file_sha256": "c89266afbbd0f3322340635ebd654089ecab4932f24b903d05d1493234b2c141",
+  "onset_file_sha256": "fccd1b963b174190751519e11c674d5a4c028c311f8aaef43b0f1a4346365a33",
+  "canonical_location": "src/slep_thermo/data/",
+  "notes": "The two MFA files are bundled once as Python package data. The podcast WAV remains external at stimuli/audio/stimulus.wav."
+}

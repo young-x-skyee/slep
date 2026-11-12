@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "slep-thermo"
+version = "0.5.2"
+description = "Exploratory SLEP Hypothesis IV analysis for naturalistic EEG/MEG Evoked data"
+authors = ["Research project"]
+readme = "README.md"
+packages = [{ include = "slep_thermo", from = "src" }]
+include = [{ path = "src/slep_thermo/data/*", format = ["sdist", "wheel"] }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = ">=1.26,<3.0"
+scipy = ">=1.11,<2.0"
+pandas = ">=2.1,<3.0"
+matplotlib = ">=3.8,<4.0"
+scikit-learn = ">=1.4,<2.0"
+mne = ">=1.7,<2.0"
+
+[tool.poetry.group.semantic]
+optional = true
+
+[tool.poetry.group.semantic.dependencies]
+sentence-transformers = ">=3.0,<6.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0,<10.0"
+
+[tool.poetry.scripts]
+slep-run = "slep_thermo.pipeline:main"
+slep-aggregate = "slep_thermo.aggregate:main"
+slep-inspect-mfa = "slep_thermo.inspect_mfa:main"
+slep-inspect-audio = "slep_thermo.inspect_audio:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
