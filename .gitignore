@@ -9,7 +9,6 @@ build/
 *.egg-info/
 poetry.lock
 # Generated analysis caches/results
-/outputs/
 *.npz
 *.npy
 *.png

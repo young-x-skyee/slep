@@ -1,0 +1,23 @@
+{
+  "beta": 0.5031636370411712,
+  "temperature": 1.9874250171980838,
+  "r2_within": 0.027094501375409363,
+  "ci_low": 0.036817400467555945,
+  "ci_high": 3.1483967672556488,
+  "n_cells": 134,
+  "n_windows": 21,
+  "beta_acoustic_only_baseline": 1.5350863068689033,
+  "beta_audio_controlled_joint": 0.5269958094914254,
+  "temperature_audio_controlled_joint": 1.8975482954315042,
+  "mean_neural_incremental_information_nats": -0.06540030789426542,
+  "subject": "participant_04",
+  "modality": "EEG",
+  "n_sensors": 64,
+  "n_samples": 20088,
+  "sfreq_original": 1000.0,
+  "sfreq_analysis": 50.0,
+  "sfreq_analysis_audio_time": 50.02701999999827,
+  "n_pca": 20,
+  "n_states": 10,
+  "mean_entropy_norm": 0.751524840926908
+}

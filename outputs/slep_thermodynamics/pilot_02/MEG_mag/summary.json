@@ -1,0 +1,23 @@
+{
+  "beta": 1.758348689055764,
+  "temperature": 0.5687154124913651,
+  "r2_within": 0.00886483781448899,
+  "ci_low": -0.8150970583924467,
+  "ci_high": 4.250617793341161,
+  "n_cells": 192,
+  "n_windows": 21,
+  "beta_acoustic_only_baseline": 1.3909073974795605,
+  "beta_audio_controlled_joint": 1.948665374515338,
+  "temperature_audio_controlled_joint": 0.5131717395290173,
+  "mean_neural_incremental_information_nats": -0.00952054729422458,
+  "subject": "pilot_02",
+  "modality": "MEG_mag",
+  "n_sensors": 102,
+  "n_samples": 20088,
+  "sfreq_original": 1000.0,
+  "sfreq_analysis": 50.0,
+  "sfreq_analysis_audio_time": 50.02701999999827,
+  "n_pca": 20,
+  "n_states": 10,
+  "mean_entropy_norm": 0.9490922981960326
+}

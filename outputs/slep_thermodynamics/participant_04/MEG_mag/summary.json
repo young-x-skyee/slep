@@ -1,0 +1,23 @@
+{
+  "beta": 2.8250292405412107,
+  "temperature": 0.3539786369816204,
+  "r2_within": 0.016057715764645986,
+  "ci_low": -0.1854916575775005,
+  "ci_high": 5.733378031581209,
+  "n_cells": 169,
+  "n_windows": 21,
+  "beta_acoustic_only_baseline": 1.7211307241640619,
+  "beta_audio_controlled_joint": 2.3621709206194863,
+  "temperature_audio_controlled_joint": 0.4233393914347854,
+  "mean_neural_incremental_information_nats": -0.01282261864874125,
+  "subject": "participant_04",
+  "modality": "MEG_mag",
+  "n_sensors": 102,
+  "n_samples": 20088,
+  "sfreq_original": 1000.0,
+  "sfreq_analysis": 50.0,
+  "sfreq_analysis_audio_time": 50.02701999999827,
+  "n_pca": 20,
+  "n_states": 10,
+  "mean_entropy_norm": 0.868840790482219
+}

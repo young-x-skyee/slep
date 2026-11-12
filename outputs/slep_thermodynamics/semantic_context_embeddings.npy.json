@@ -1,0 +1,7 @@
+{
+  "cache_key": "eba239708fbf83d87c1e6850af5b6d74608a65206536277f9d4fbaf434826106",
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "context_words": 12,
+  "n_words": 1396,
+  "embedding_dim": 384
+}
